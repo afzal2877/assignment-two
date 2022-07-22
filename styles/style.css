@@ -1,0 +1,46 @@
+/*--------- font style-----  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.banner-head {
+    color: white;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    align-items: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr {
+    color: whitesmoke;
+}
+
+.footer-link {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+
+}
